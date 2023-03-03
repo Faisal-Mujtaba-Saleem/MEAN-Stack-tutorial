@@ -288,6 +288,22 @@ The following example shows a 100px \* 100px red <div> element. The <div> elemen
     transition: width 2s;
   }
 ```
+ #### Shorthand Property For Transition
+The transition property is a shorthand property for:
+
+1. transition-property
+2. transition-duration
+3. transition-timing-function
+4. transition-delay
+  Note: These properties can be written in one line through Transition-ShortHand Property in the sequence given above.
+  
+```
+  div {
+  transition: "transition-property" "transition-duration" "transition-timing-function" "transition-delay";
+}
+```
+  
+Note: Always specify the transition-duration property, otherwise the duration is 0s, and the transition will have no effect.
 
 Read more:
 
